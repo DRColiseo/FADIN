@@ -1,0 +1,2 @@
+aes_encrypt("hola",'Fadin')
+INSERT INTO usuario (Nombre,Password,Pregunta_1,Respuesta_1,Pregunta_2,Respuesta_2,Privilegio,Local) VALUES ('prueba',aes_encrypt('hola','Fadin'),aes_encrypt('1','Fadin'),aes_encrypt('1','Fadin'),aes_encrypt('2','Fadin'),aes_encrypt('2','Fadin'),'Si','Mickey');
